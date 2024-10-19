@@ -1,0 +1,9 @@
+.login {
+  background-image: url('./assets/react.png');
+  background-size: cover; /* A imagem vai ocupar o todo o tamanho do container */
+  height: 100vh; /* A imagem vai ocupar o todo o tamnho dispoível da tela */
+
+  /* Garantir que a imagem de fundo, vai ficar no fundo dos outros compontes */
+  position: relative; 
+  z-index: 1;
+}
